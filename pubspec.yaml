@@ -1,0 +1,21 @@
+name: rif_market
+description: سوبر ماركت الريف المصري - فرع العاصمة
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  crypto: ^3.0.3
+  intl: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.3
+flutter:
+  uses-material-design: true
